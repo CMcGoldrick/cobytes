@@ -10,6 +10,10 @@ namespace Cobytes
     {
         static void Main(string[] args)
         {
+            var easy = CoBytes.Easy.SecondGreatLow(new int[] {90, 4 });
+            //var easy = CoBytes.Easy.LetterCountI("applesandpapplesgrapples");
+
+            Console.WriteLine(easy);
         }
     }
 }
